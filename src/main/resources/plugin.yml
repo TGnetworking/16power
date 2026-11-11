@@ -1,0 +1,16 @@
+name: CustomPowers
+version: '1.0.0'
+main: com.voidgamerz.custompowers.CustomPowers
+api-version: '1.21'
+author: VoidGamerZ
+description: 15 unique dangerous powers plus the god-tier Crown of the Void King.
+
+commands:
+  givepower:
+    description: Give a player one of the 16 power items.
+    usage: /givepower <player> <powerId>
+    permission: custompowers.give
+    permission-message: You don't have permission to use this command.
+  listpowers:
+    description: List every power id you can give.
+    usage: /listpowers
